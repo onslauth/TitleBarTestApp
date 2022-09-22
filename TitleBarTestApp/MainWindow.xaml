@@ -14,7 +14,9 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <Grid Grid.Row="0" x:Name="GridTitleBar" Height="32" />
+        <Grid Grid.Row="0" x:Name="GridTitleBar" Height="32">
+            <TextBlock Text="My Title Bar"/>
+        </Grid>
 
         <StackPanel Grid.Row="1" 
                     Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
